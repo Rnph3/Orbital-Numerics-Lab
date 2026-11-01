@@ -1,0 +1,100 @@
+{
+  "model": "dimensionless two-body point-mass test particle",
+  "eccentricity": 0.4,
+  "period": 6.283185307179586,
+  "comparison": [
+    {
+      "method": "euler",
+      "steps": 160,
+      "dt": 0.039269908169872414,
+      "max_relative_energy_drift": 0.35581726911235156,
+      "max_relative_angular_momentum_drift": 0.15586197644338542,
+      "endpoint_position_error": 2.9371696524540027,
+      "minimum_radius": 0.6,
+      "maximum_radius": 2.3686245269058923
+    },
+    {
+      "method": "verlet",
+      "steps": 160,
+      "dt": 0.039269908169872414,
+      "max_relative_energy_drift": 0.001790758162294459,
+      "max_relative_angular_momentum_drift": 1.2113526306256193e-15,
+      "endpoint_position_error": 0.02757819919735678,
+      "minimum_radius": 0.6,
+      "maximum_radius": 1.4043624739801377
+    },
+    {
+      "method": "rk4",
+      "steps": 160,
+      "dt": 0.039269908169872414,
+      "max_relative_energy_drift": 9.363858055611018e-07,
+      "max_relative_angular_momentum_drift": 1.1792687484849272e-07,
+      "endpoint_position_error": 1.339799025921963e-05,
+      "minimum_radius": 0.6,
+      "maximum_radius": 1.399997834544281
+    }
+  ],
+  "convergence": [
+    {
+      "method": "euler",
+      "steps": 40,
+      "endpoint_position_error": 5.821423966506609
+    },
+    {
+      "method": "euler",
+      "steps": 80,
+      "endpoint_position_error": 4.174708178636156
+    },
+    {
+      "method": "euler",
+      "steps": 160,
+      "endpoint_position_error": 2.9371696524540027
+    },
+    {
+      "method": "euler",
+      "steps": 320,
+      "endpoint_position_error": 1.9713044170604999
+    },
+    {
+      "method": "verlet",
+      "steps": 40,
+      "endpoint_position_error": 0.462960348061081
+    },
+    {
+      "method": "verlet",
+      "steps": 80,
+      "endpoint_position_error": 0.11180206279224372
+    },
+    {
+      "method": "verlet",
+      "steps": 160,
+      "endpoint_position_error": 0.02757819919735678
+    },
+    {
+      "method": "verlet",
+      "steps": 320,
+      "endpoint_position_error": 0.006869713286180647
+    },
+    {
+      "method": "rk4",
+      "steps": 40,
+      "endpoint_position_error": 0.006900868562479285
+    },
+    {
+      "method": "rk4",
+      "steps": 80,
+      "endpoint_position_error": 0.0002844270550304768
+    },
+    {
+      "method": "rk4",
+      "steps": 160,
+      "endpoint_position_error": 1.339799025921963e-05
+    },
+    {
+      "method": "rk4",
+      "steps": 320,
+      "endpoint_position_error": 7.05033076249709e-07
+    }
+  ],
+  "provenance": "analytical initial conditions, no observational/mission data"
+}

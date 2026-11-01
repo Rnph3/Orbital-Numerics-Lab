@@ -1,0 +1,23 @@
+test_acceleration (test_orbits.OrbitTests.test_acceleration) ... ok
+test_acceleration_origin (test_orbits.OrbitTests.test_acceleration_origin) ... ok
+test_angular_momentum_eccentric (test_orbits.OrbitTests.test_angular_momentum_eccentric) ... ok
+test_bad_settings (test_orbits.OrbitTests.test_bad_settings) ... ok
+test_circular_energy (test_orbits.OrbitTests.test_circular_energy) ... ok
+test_circular_h (test_orbits.OrbitTests.test_circular_h) ... ok
+test_eccentric_energy (test_orbits.OrbitTests.test_eccentric_energy) ... ok
+test_eccentric_initial_r (test_orbits.OrbitTests.test_eccentric_initial_r) ... ok
+test_euler_worse_than_rk4 (test_orbits.OrbitTests.test_euler_worse_than_rk4) ... ok
+test_invalid_diagnostics (test_orbits.OrbitTests.test_invalid_diagnostics) ... ok
+test_invalid_eccentricity (test_orbits.OrbitTests.test_invalid_eccentricity) ... ok
+test_length (test_orbits.OrbitTests.test_length) ... ok
+test_refinement_rk4 (test_orbits.OrbitTests.test_refinement_rk4) ... ok
+test_rk4_close_to_circle (test_orbits.OrbitTests.test_rk4_close_to_circle) ... ok
+test_short_step (test_orbits.OrbitTests.test_short_step) ... ok
+test_time_reversal_verlet (test_orbits.OrbitTests.test_time_reversal_verlet) ... ok
+test_verlet_energy (test_orbits.OrbitTests.test_verlet_energy) ... ok
+test_verlet_h (test_orbits.OrbitTests.test_verlet_h) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.003s
+
+OK

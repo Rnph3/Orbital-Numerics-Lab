@@ -1,0 +1,3 @@
+euler: energy drift 0.35582; endpoint err 2.9372
+verlet: energy drift 0.0017908; endpoint err 0.027578
+rk4: energy drift 9.3639e-07; endpoint err 1.3398e-05
